@@ -1,0 +1,66 @@
+@use'../custom'as*;
+@use'../components/mixins'as*;
+
+.display-2{
+
+    margin-bottom: 3rem;
+    text-transform: capitalize;
+            
+    font-family: 'Caveat', cursive;
+    &--subt{
+        font-size:3rem;
+        font-weight: 700;
+    }
+    &--subt-1{
+        background-image: linear-gradient(to right, rgba($secondary,0.98),rgba($secondary,0.98));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+  
+    
+
+
+    &--intro{
+        display:inline-block;
+        font-weight: 700;
+        padding-bottom: 2rem;
+        color:black;
+        font-size:3rem;
+         
+      
+
+    }
+    &--des{
+        font-size:1rem;
+        display:block;
+        font-weight:300;
+        color: black;
+        text-transform: none;
+        text-align:start;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+      
+      
+    }
+
+}
+/*headingline*/
+.heading-line:before{
+    content:"" ;
+    width: 10rem;
+    height: 0.2rem;
+    display: block;
+    margin: 0 auto;
+    background-color: $secondary;
+}
+.heading-line:after{
+    content:"" ;
+    width: 5rem;
+    height: 0.4rem;
+    display: block;
+    margin: 0 auto;
+    background-color: $secondary;
+}
+.borderryt{
+    border-right: 2px solid $primary;
+}

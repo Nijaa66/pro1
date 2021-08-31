@@ -1,0 +1,41 @@
+@use'../custom'as*;
+@use'../components/mixins'as*;
+
+.footer{
+   background-color:$footer;
+}
+.contact-box{
+   position: relative;
+   &--icon{
+      stroke: $secondary;
+      width: 3rem;
+      padding-right: .26rem;
+   
+
+   }
+   &--info{
+      font-weight: 600;
+      padding:.4rem;
+      &--titi{
+         color: blanchedalmond;
+         text-decoration:none ;
+         font-size: 1.1rem;
+
+      }
+      &--subititi{
+         color: $gray-600;
+         text-decoration:none ;
+         font-size: 1rem;
+      }
+   }
+}
+.footer-smed{
+   a{
+      color: #ffffff;
+   }
+   i{
+      font-size: 1.5rem;
+      padding-right: 1rem;
+      
+   }
+}

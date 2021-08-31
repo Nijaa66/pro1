@@ -1,0 +1,36 @@
+
+@use'../custom'as*;
+@use'../components/mixins'as*;
+.testi{
+    position: relative;
+    padding: 0rem;
+    @include gradient;
+    &--cards{
+            background-color: rgba($white,0.7);
+            border-radius: 0.55rem;
+            height: auto;
+            text-align: center;
+          i  {
+               color: $primary;
+               font-size: 1rem;
+            }
+    }
+    &--picss{
+             width: 6rem;
+             height: 8rem;
+             position: absolute;
+             left:50%;
+             transform:translate(-50%,-50%);
+             border:1px solid $secondary,0.95;
+
+    }
+    &--names{
+           padding-top: 1rem;
+           margin-bottom: 1rem;
+           text-align: center;
+           h5{
+            color: $white;
+           }
+         
+    }
+}

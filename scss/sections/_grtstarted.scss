@@ -1,0 +1,10 @@
+@use'../custom'as*;
+@use'../components/mixins'as*;
+.getstarted{
+    background-color: $gray-400;
+    padding: 4rem,0;
+   
+}
+.gra{
+    @include gradient;
+    }
